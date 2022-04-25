@@ -25,3 +25,5 @@ to send text message you need to typ in the relevant area you to send you can us
 we were working in another repositry but something went wrong there couldn't find the proplem so we opened a new one and put every thing here
 ### package
 we used rect-router-dom version 5
+other things was from the ract like useState useRef...
+the use state we use in appjs then in every time we need to update we use it to render
