@@ -160,7 +160,7 @@ function Register(){
                                <div className="invalid-feedback">Password field cannot be blank!</div>
                            </div>
                            <div className="col-md-12">
-                              <input ref={sendbox3} className="form-control" type="text" name="password" placeholder="Display Name" required></input>
+                              <input ref={sendbox3} className="form-control" type="text" name="password" placeholder="User Name" required></input>
                            </div>
                            <div className="col-md-12">
                            <input id="choosephoto" className="form-control" type="file"   required></input>
