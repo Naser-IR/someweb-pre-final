@@ -11,7 +11,7 @@ import './temp.css'
 
 //App({name,img})
 function App() {
-  //for every variant ut a const for him
+  //these state is the user state and we update them on every operation wich render the component app to keep it update
   const [chatstate,setchatstate] = useState({name:''}) //name
   const [chatstateImg,setchatstateImg] = useState({img:{} }) //image
   const [chatstateId,setchatstateId] = useState( {id:'1'}) //id
