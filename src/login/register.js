@@ -16,17 +16,17 @@ function Register(){
         var confpass = sendbox2.current.value;
         var dName = sendbox3.current.value;
         if(s === ''){
-         alert('fuckof');
+         alert('password must contain at least one number');
          clickbox.current.checked= false
          return
         }
         if(pass === ''){
-            alert('fuckof');
+            alert('password must contain at least one number');
             clickbox.current.checked= false
             return
         }
         if(dName === ''){
-            alert('fuckof');
+            alert('password must contain at least one number');
             clickbox.current.checked= false
             return
         }
