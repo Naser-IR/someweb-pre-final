@@ -85,13 +85,13 @@ if(x===1){
    );} else{
     return (
       <div  className="row container-fluid ttt">
-        <div id='ff'  className="row">
+//         <div id='ff'  className="row">
           
           <Left upatechat={upatechat} y={x} setx={setx} userpass={userpass} />
           {/* <Guest /> */}
           
            <Chat chatstate ={chatstate} chatstateId={chatstateId} chatstateImg={chatstateImg} upatechat={upatechat}  /> 
-        </div>
+//         </div>
       </div>
     
     )}
