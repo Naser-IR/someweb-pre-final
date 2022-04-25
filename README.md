@@ -23,3 +23,5 @@ to send image or video tybe the drop up button at the bottom left
 to send text message you need to typ in the relevant area you to send you can use send button oor the (Enter)
 # Authur note important
 we were working in another repositry but something went wrong there couldn't find the proplem so we opened a new one and put every thing here
+### package
+we used rect-router-dom version 5
