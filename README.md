@@ -1,11 +1,11 @@
 ###TO START WORKING
-1)>>download the code
-2)>>open terminal-cmd to the current file
-3)>> npm install
-4)>> npm download
+1) >>download the code
+2) >>open terminal-cmd to the current file
+3) >> npm install
+4) >> npm download
 and it should run
 ### TO START CHATING
-1)to start working you can log in with the user name that is already in 
+1) to start working you can log in with the user name that is already in 
 username:roronoa
 pass:Zoro5
 2) you can just register with new user name
