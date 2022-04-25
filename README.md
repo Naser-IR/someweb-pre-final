@@ -5,10 +5,11 @@
 4) then npm start
 ### it should run
 # TO START CHATING
+### at first the cod will open the log in page
 1) to start working you can log in with the user name that is already in 
 username:roronoa
 pass:Zoro5
-2) you can just register with new user name
+2)or you can just register with new user name - if you choose to register after you done the code will open back the log in screen so you could log with the username and password that you created - when loging in after register
 the moment you log in there are 5 guest that you can talk to them and there are another 2 that you can add from the add button
 
 # ADDING People
