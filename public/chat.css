@@ -107,6 +107,7 @@ height: 70px;
   }
   #audiobtn{
      font-size: smaller;
+     padding: 0;
   }
   #audios{
     width: 400px;
@@ -145,6 +146,7 @@ div#contact_div {
     flex: 1;
     display: flex;
     flex-direction: column;
+    height: 90vh;
 }
 .table-wrapper-scroll-y {
     display: block;
@@ -326,7 +328,7 @@ div#contact_div {
 }
 #ci{
     vertical-align: middle;
-    height: 976px;
+    height: 97vh;
     width: 1300px;
 }
 #ggg{
