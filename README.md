@@ -2,8 +2,8 @@
 1) >>download the code
 2) >>open terminal-cmd to the current file
 3) >> npm install
-4) >> npm download
-and it should run
+4) >> npm start
+# it should run
 ### TO START CHATING
 1) to start working you can log in with the user name that is already in 
 username:roronoa
