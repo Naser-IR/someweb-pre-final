@@ -93,6 +93,7 @@ function Typo({name ,img,id ,updatechat}){
      };
      var image = document.getElementById("upload").files[0];
      reader.readAsDataURL(image)
+     upload.current.value = null;
      
      //HandleImg();
    };
