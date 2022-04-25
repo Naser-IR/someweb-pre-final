@@ -10,7 +10,7 @@ username:roronoa
 pass:Zoro5
 2) you can just register with new user name
 the moment you log in there are 5 guest that you can talk to them and there are another 2 that you can add from the add button
-###adding people
+###ADDING People
 if you to add the click the button there user name :
 1) shanks
  2) marco
