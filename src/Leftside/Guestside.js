@@ -19,7 +19,7 @@ function Guest({chexk,name, message, time, img, id }) {
             <h5  className="mb-1 color:white"> {name} </h5>
             <p class="mb-1" id=""> {message} </p>
         </div>
-        <div className="flex-grow-1 text-right">
+        <div id="time" className="flex-grow-1 text-right">
             <div className="small time" id=""> {time}  </div>
         </div>
     </div>
