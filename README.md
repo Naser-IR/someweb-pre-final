@@ -10,8 +10,8 @@ pass:Zoro5
 or you can just register with new user name
 the moment you log in there are 5 guest that you can take to them and there are another 2 that you can add from the add button
 if you to add the click the button there user name :
-1) shanks
-2) marco
+ shanks
+ marco
 for this homework you can not log in with all the guest cuase these guest are hard coded in an array the ment just for them you can find this array in infos
 for the text you can send text message-record-Image or video 
 to send image or video tybe the drop up button at the bottom left 
