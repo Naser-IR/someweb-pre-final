@@ -14,9 +14,11 @@ the moment you log in there are 5 guest that you can talk to them and there are 
 # ADDING People
 if you to add the click the button there user name :
 1) shanks
- 2) marco
+2) marco
 # SOME NOTES
 for this homework you can not log in with all the guest cuase these guest are hard coded in an array the ment just for them you can find this array in infos
 for the text you can send text message-record-Image or video 
 to send image or video tybe the drop up button at the bottom left 
 to send text message you need to typ in the relevant area you to send you can use send button oor the (Enter)
+# Authur note important
+we were working in another repositry but something went wrong there couldn't find the proplem so we opened a new one and put every thing here
