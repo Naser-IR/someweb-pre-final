@@ -13,6 +13,7 @@ function Typo({name ,img,id ,updatechat}){
       }
     }
   };
+   const vidU = useRef()
    const m = mlist()
     const sendbox = useRef();
     const send= function (){
@@ -46,7 +47,7 @@ function Typo({name ,img,id ,updatechat}){
         };
         var video = document.getElementById("vid").files[0];
         reader.readAsDataURL(video)
-        
+        vidU.current.value = null;
         
     }
     var x;
@@ -97,7 +98,6 @@ function Typo({name ,img,id ,updatechat}){
      
      //HandleImg();
    };
-   const vidU = useRef()
    const vidclick = (e) => {
     vidU.current.click();
   };
