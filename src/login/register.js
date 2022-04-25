@@ -16,17 +16,17 @@ function Register(){
         var confpass = sendbox2.current.value;
         var dName = sendbox3.current.value;
         if(s === ''){
-         alert('password must contain at least one number');
+         alert('you need to fill all the info');
          clickbox.current.checked= false
          return
         }
         if(pass === ''){
-            alert('password must contain at least one number');
+            alert('you need to fill all the info');
             clickbox.current.checked= false
             return
         }
         if(dName === ''){
-            alert('password must contain at least one number');
+            alert('you need to fill all the info');
             clickbox.current.checked= false
             return
         }
@@ -42,7 +42,7 @@ function Register(){
                 return
              }  
            }
-           for(var k=0;k<infos.length;k++){
+           for(var k=0;k<User.length;k++){
             if(dName === User[k].useName){
                alert('user is already in try to log in');
                clickbox.current.checked= false
@@ -76,7 +76,7 @@ function Register(){
             alert('password must contain at least one character')
             clickbox.current.checked= false
             return;
-        }
+            }
            if(pass.length < 5){
                alert('password must contain  at least 5 characters')
                clickbox.current.checked= false
@@ -104,7 +104,7 @@ function Register(){
                 return
              }  
            }
-           for(var k=0;k<infos.length;k++){
+           for(var k=0;k<User.length;k++){
             if(dName === User[k].useName){
                alert('user is already in try to log in');
                clickbox.current.checked= false
