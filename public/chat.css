@@ -85,14 +85,6 @@ height: 70px;
     padding: 10px;
     margin: 10px 0;
   }
-  /* #fm {
-    background: #03364e;
-    overflow-wrap: break-word;
-    padding: 1px;
-    width: 400px;
-    height: 40px;
-    border-radius: 25px;
-  } */
   .chat-message {
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -111,10 +103,13 @@ height: 70px;
   }
   #audios{
     width: 400px;
+    float: right;
     height: 40px;
   
   }
   #chathere {
+    display: flex;
+    flex-direction: column;
     scroll-behavior: smooth;
     overflow: scroll;
     overflow-x: hidden;
@@ -131,8 +126,7 @@ height: 70px;
       margin-left: 30px;
   }
   #display-image{
-     
-  
+     float: right;
   }
 
 .cont-list {
@@ -337,3 +331,11 @@ div#contact_div {
 #time{
     padding-left: 20%;
 }
+
+
+#vid{
+ float: right;
+}
+#fm {
+float: right;
+} 
