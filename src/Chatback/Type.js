@@ -13,7 +13,7 @@ function Typo({name ,img,id ,updatechat}){
       }
     }
   };
-   const vidU = useRef()
+  const vidU = useRef()
    const m = mlist()
     const sendbox = useRef();
     const send= function (){
@@ -45,7 +45,7 @@ function Typo({name ,img,id ,updatechat}){
         infos[m].array.push(r);
         updatechat({ name, img, i, typ, id });
         };
-        var video = document.getElementById("vid").files[0];
+        var video = document.getElementById("vidd").files[0];
         reader.readAsDataURL(video)
         vidU.current.value = null;
         
@@ -98,6 +98,7 @@ function Typo({name ,img,id ,updatechat}){
      
      //HandleImg();
    };
+  
    const vidclick = (e) => {
     vidU.current.click();
   };
@@ -119,7 +120,7 @@ function Typo({name ,img,id ,updatechat}){
                         <button onClick={onClick} type="button" className="btn">                       
                             <i className="bi bi-images"></i>
                         </button>
-                        <input ref={vidU}  id="vid" type="file" onChange={handleVideoUpload} accept="Video/*" hidden="hidden" ></input>
+                        <input ref={vidU}  id="vidd" type="file" onChange={handleVideoUpload} accept="Video/*" hidden="hidden" ></input>
                         <button onClick={vidclick} type="button" className="btn">
                             <i className="bi bi-file-earmark-play-fill"></i>
                         </button>
