@@ -20,7 +20,7 @@ function Typo({name ,img,id ,updatechat}){
         var s = sendbox.current.value;
         sendbox.current.value = null;
         var typ = 'm'
-        const r = {str:{s},typ:{typ}}
+        const r = {str: s ,typ: typ }
         infos[m].array.push(r);
         var l = s.substr(0,20);
         infos[m].message = l;
@@ -41,7 +41,7 @@ function Typo({name ,img,id ,updatechat}){
        //  var i =base64data.split(',')[1];
        var i =base64data;
         var typ = "v";
-        const r = { str: { i }, typ: { typ } };
+        const r = { str: i , typ:  typ  };
         infos[m].array.push(r);
         updatechat({ name, img, i, typ, id });
         };
@@ -67,7 +67,7 @@ function Typo({name ,img,id ,updatechat}){
             const audioBlob = new Blob(audioChunks);
             const i = URL.createObjectURL(audioBlob);
             var typ = "A";
-            const r = { str: { i }, typ: { typ } };
+            const r = { str: i , typ:  typ  };
             infos[m].array.push(r);
             updatechat({ name, img, i, typ, id });
           });      
@@ -88,7 +88,7 @@ function Typo({name ,img,id ,updatechat}){
     //  var i =base64data.split(',')[1];
     var i =base64data;
      var typ = "img";
-     const r = { str: { i }, typ: { typ } };
+     const r = { str:  i , typ:  typ  };
      infos[m].array.push(r);
      updatechat({ name, img, i, typ, id });
      };
@@ -96,7 +96,6 @@ function Typo({name ,img,id ,updatechat}){
      reader.readAsDataURL(image)
      upload.current.value = null;
      
-     //HandleImg();
    };
   
    const vidclick = (e) => {
