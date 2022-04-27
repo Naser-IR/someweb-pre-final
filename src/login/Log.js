@@ -18,7 +18,7 @@ function Login({updateuser}){
                 return;
             }        
         }
-         alert('user not found join us now')
+         alert('wrong password or user try again or join us now')
     }
     const register = function(){
         history.push('/a') 
