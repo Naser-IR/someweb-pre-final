@@ -43,6 +43,7 @@ function Typo({name ,img,id ,updatechat}){
         var typ = "v";
         const r = { str: i , typ:  typ  };
         infos[m].array.push(r);
+        infos[m].message = "video";
         updatechat({ name, img, i, typ, id });
         };
         var video = document.getElementById("vidd").files[0];
@@ -69,6 +70,7 @@ function Typo({name ,img,id ,updatechat}){
             var typ = "A";
             const r = { str: i , typ:  typ  };
             infos[m].array.push(r);
+            infos[m].message = "audio";
             updatechat({ name, img, i, typ, id });
           });      
            x =mediaRecorder;
@@ -90,6 +92,7 @@ function Typo({name ,img,id ,updatechat}){
      var typ = "img";
      const r = { str:  i , typ:  typ  };
      infos[m].array.push(r);
+     infos[m].message = "img";
      updatechat({ name, img, i, typ, id });
      };
      var image = document.getElementById("upload").files[0];
