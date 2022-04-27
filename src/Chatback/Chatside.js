@@ -27,19 +27,19 @@ function updatechat({ name, img, s,typ, id }) {
   upatechat({ name, img, s, id });
 }
   const messagelist = infos[m].array.map((s,key) => {
-       if(s.typ.typ === 'm'){
+       if(s.typ === 'm'){
        var cur = s.str;
        console.log(cur.s);
-       return <Handle s={cur.s} key={key} />;
-       } else if(s.typ.typ === 'img') {
+       return <Handle s={cur} key={key} />;
+       } else if(s.typ === 'img') {
         var imgcur = s.str;
-         return <HandleImg image={imgcur.i} />
-       } else if(s.typ.typ === 'v') {
+         return <HandleImg image={imgcur} />
+       } else if(s.typ === 'v') {
         var vid = s.str;
-        return <Vhandle video={vid.i} />
-       } else if(s.typ.typ === 'A'){
+        return <Vhandle video={vid} />
+       } else if(s.typ === 'A'){
         var audio = s.str;
-         return <Audiohandle audio={audio.i}/>
+         return <Audiohandle audio={audio}/>
        }
   });
   
@@ -59,6 +59,7 @@ function updatechat({ name, img, s,typ, id }) {
           </li>
         </ul>
       </div>
+      <div></div>
       <div id="backchat" className="row">
         {/* <div  id='chatfs' className="containerm "> */}
             <div   id='chathere' >
@@ -66,6 +67,7 @@ function updatechat({ name, img, s,typ, id }) {
                 {/**what i need to do her is create some map then the map will return handle for all the message in here */}
                 {/* {m} */}
                 {messagelist}
+                
             </div>
             
 
@@ -73,6 +75,7 @@ function updatechat({ name, img, s,typ, id }) {
         {/* </div> */}
         {/* <img src={img1}></img> */}
       </div>
+      
       {/* try to use function for the chat  <Typo name={chatstate.name} img={chatstate.img} updatechat={updatechat}/> */}
       {/* <Typo name={chatstate.name} img={chatstate.img} /> */}
       <Typo name={chatstate.name} img={chatstateImg.img} id={chatstateId.id} updatechat={updatechat} />
@@ -80,3 +83,4 @@ function updatechat({ name, img, s,typ, id }) {
   );
 }
 export default Chat;
+
